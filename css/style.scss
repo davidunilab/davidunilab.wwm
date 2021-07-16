@@ -1,13 +1,13 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    position: responsive;
+    position: relative;
   }
   li {
     list-style: none;
   }
   .background {
-    position: responsive;
+    position: relative;
     background-image: linear-gradient(
         to bottom,
         rgba(70, 50, 80, 0.3),
@@ -48,7 +48,7 @@
       font-size: 72px;
       color: white;
       text-align: center;
-      width: 470px;
+      width: 550px;
     }
   }
   

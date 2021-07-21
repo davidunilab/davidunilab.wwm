@@ -38,6 +38,10 @@
           padding:10px 15px;
           border: 1px solid $white;
           cursor: pointer;
+          transition: all .3s ease-in-out;
+          &:hover{
+            color:$active;
+          }
         }
       }
   
@@ -46,6 +50,11 @@
           z-index: 33;
           padding-bottom: 40px;
           text-align: right;
+          cursor: pointer;
+          transition: all .3s ease-in-out;
+          &:hover{
+            color:$active;
+          }
         }
     }
 

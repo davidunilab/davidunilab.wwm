@@ -99,7 +99,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #b9b9b9;
+  color: #cfcfcf;
 }
 
 header nav .profile {
@@ -114,7 +114,7 @@ header .site_name {
   right: 50%;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
-  color: #b9b9b9;
+  color: #cfcfcf;
   text-align: center;
   line-height: 150px;
   width: 550px;
@@ -153,7 +153,7 @@ header .site_name {
 }
 
 .portals div a {
-  color: #b9b9b9;
+  color: #cfcfcf;
   text-decoration: none;
   font-size: 30px;
   letter-spacing: 5px;
@@ -196,16 +196,29 @@ header .site_name {
   right: 15px;
   bottom: 15px;
   background-color: rgba(255, 255, 255, 0);
-  color: #b9b9b9;
+  color: #cfcfcf;
   padding: 10px 15px;
-  border: 1px solid #b9b9b9;
+  border: 1px solid #cfcfcf;
   cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#structure section .container .notes button:hover {
+  color: white;
 }
 
 #structure section .container li {
-  color: #b9b9b9;
+  color: #cfcfcf;
   z-index: 33;
   padding-bottom: 40px;
   text-align: right;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#structure section .container li:hover {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

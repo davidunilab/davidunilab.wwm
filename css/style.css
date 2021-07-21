@@ -64,6 +64,7 @@ body {
   position: relative;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(/images/main_background.png);
   background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(/images/main_background.png);
+  background-color: black;
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -162,6 +163,7 @@ header .site_name {
   position: absolute;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(/images/srtucture_background.png);
   background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(/images/srtucture_background.png);
+  background-color: black;
 }
 
 #structure section .container {
@@ -181,17 +183,29 @@ header .site_name {
 
 #structure section .container .notes {
   background-color: rgba(255, 255, 255, 0.247);
-  padding: 15px;
+  padding: 25px 25px 65px 25px;
   max-width: 65%;
   color: white;
   line-height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.384);
+  position: relative;
+}
+
+#structure section .container .notes button {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #b9b9b9;
+  padding: 10px 15px;
+  border: 1px solid #b9b9b9;
+  cursor: pointer;
 }
 
 #structure section .container li {
   color: #b9b9b9;
   z-index: 33;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   text-align: right;
 }
 /*# sourceMappingURL=style.css.map */

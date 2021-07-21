@@ -64,8 +64,8 @@ body {
 
 .background {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(../images/main_background.png);
-  background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(../images/main_background.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(70%, rgba(37, 23, 34, 0.3)), to(#211725)), url(../images/main_background.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3) 0%, rgba(37, 23, 34, 0.3) 70%, #211725 100%), url(../images/main_background.png);
   background-color: black;
   background-size: cover;
   width: 100%;
@@ -130,7 +130,7 @@ header .site_name {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   min-height: 400px;
-  background-color: #0a0737;
+  background-color: #211725;
   padding-bottom: 150px;
 }
 
@@ -163,8 +163,8 @@ header .site_name {
 
 #structure .background, #space .background, #change .background {
   position: absolute;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(../images/srtucture_background.png);
-  background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(../images/srtucture_background.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), to(#211725)), url(../images/srtucture_background.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3), #211725), url(../images/srtucture_background.png);
   background-color: black;
 }
 
@@ -226,15 +226,15 @@ header .site_name {
 
 #space .background {
   position: absolute;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(../images/space_background.png);
-  background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(../images/space_background.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(110%, #211725)), url(../images/space_background.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3), #211725 110%), url(../images/space_background.png);
   background-color: black;
 }
 
 #change .background {
   position: absolute;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(../images/change_background.png);
-  background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(../images/change_background.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(150%, #211725)), url(../images/change_background.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3) 0%, #211725 150%), url(../images/change_background.png);
   background-color: black;
 }
 /*# sourceMappingURL=style.css.map */

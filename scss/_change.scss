@@ -3,8 +3,8 @@
       position: absolute;
       background-image: linear-gradient(
           to bottom,
-          $gradientStart,
-          $gradientEnd
+          $gradientStart 0%,
+          $gradientEnd 150%
         ),
         url(../images/change_background.png);
         background-color: black;

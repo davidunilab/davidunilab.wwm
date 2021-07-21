@@ -15,8 +15,9 @@ body{
     position: relative;
     background-image: linear-gradient(
         to bottom,
-        $gradientStart,
-        $gradientEnd
+        $gradientStart 0%,
+        $gradientStart 70%,
+        $gradientEnd 100%
       ),
       url(../images/main_background.png);
     background-color: black;

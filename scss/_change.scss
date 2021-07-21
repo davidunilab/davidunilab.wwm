@@ -1,0 +1,12 @@
+#change{
+    .background {
+      position: absolute;
+      background-image: linear-gradient(
+          to bottom,
+          $gradientStart,
+          $gradientEnd
+        ),
+        url(/images/change_background.png);
+        background-color: black;
+    }
+  }

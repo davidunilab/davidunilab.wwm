@@ -1,0 +1,13 @@
+#space{
+    .background {
+      position: absolute;
+      background-image: linear-gradient(
+          to bottom,
+          $gradientStart,
+          $gradientEnd
+        ),
+        url(/images/space_background.png);
+        background-color: black;
+    }
+
+  }

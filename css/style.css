@@ -1,6 +1,8 @@
 /* RESET */
 /* MAIN */
 /* STRUCTURE */
+/* SPACE */
+/* CHANGE */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,14 +161,14 @@ header .site_name {
   letter-spacing: 5px;
 }
 
-#structure .background {
+#structure .background, #space .background, #change .background {
   position: absolute;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(/images/srtucture_background.png);
   background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(/images/srtucture_background.png);
   background-color: black;
 }
 
-#structure section .container {
+#structure section .container, #space section .container, #change section .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,11 +179,11 @@ header .site_name {
   padding: 0 40px;
 }
 
-#structure section .container div {
+#structure section .container div, #space section .container div, #change section .container div {
   padding: 0 20px;
 }
 
-#structure section .container .notes {
+#structure section .container .notes, #space section .container .notes, #change section .container .notes {
   background-color: rgba(255, 255, 255, 0.247);
   padding: 25px 25px 65px 25px;
   max-width: 65%;
@@ -191,7 +193,7 @@ header .site_name {
   position: relative;
 }
 
-#structure section .container .notes button {
+#structure section .container .notes button, #space section .container .notes button, #change section .container .notes button {
   position: absolute;
   right: 15px;
   bottom: 15px;
@@ -204,11 +206,11 @@ header .site_name {
   transition: all .3s ease-in-out;
 }
 
-#structure section .container .notes button:hover {
+#structure section .container .notes button:hover, #space section .container .notes button:hover, #change section .container .notes button:hover {
   color: white;
 }
 
-#structure section .container li {
+#structure section .container li, #space section .container li, #change section .container li {
   color: #cfcfcf;
   z-index: 33;
   padding-bottom: 40px;
@@ -218,7 +220,21 @@ header .site_name {
   transition: all .3s ease-in-out;
 }
 
-#structure section .container li:hover {
+#structure section .container li:hover, #space section .container li:hover, #change section .container li:hover {
   color: white;
+}
+
+#space .background {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(/images/space_background.png);
+  background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(/images/space_background.png);
+  background-color: black;
+}
+
+#change .background {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#0a0737)), url(/images/change_background.png);
+  background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #0a0737), url(/images/change_background.png);
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-#structure{
+#structure, #space, #change{
     .background {
       position: absolute;
       background-image: linear-gradient(
@@ -39,7 +39,7 @@
           border: 1px solid $white;
           cursor: pointer;
           transition: all .3s ease-in-out;
-          &:hover{
+         &:hover{
             color:$active;
           }
         }

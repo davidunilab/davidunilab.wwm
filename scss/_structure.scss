@@ -1,0 +1,39 @@
+#structure{
+    .background {
+      position: absolute;
+      background-image: linear-gradient(
+          to bottom,
+          $gradientStart,
+          $gradientEnd
+        ),
+        url(/images/srtucture_background.png);
+    }
+
+    section .container{
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      top: 150px;
+      padding: 0 40px;
+      div{
+        padding: 0 20px;
+      }
+      .notes{
+        background-color: rgba(255, 255, 255, 0.247);
+        padding:15px;
+        max-width: 65%;
+        color:white;
+        line-height: 40px;
+        // filter:blur(4px);
+        border:1px solid rgba(255, 255, 255, 0.384);
+      }
+  
+        li{
+          color:$white;
+          z-index: 33;
+          padding-bottom: 20px;
+          text-align: right;
+        }
+    }
+
+  }

@@ -1,53 +1,6 @@
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible"
-    content="IE=edge">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0">
-  <title>Wonder Wonder Of Mathematics</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet"
-    href="//cdn.web-fonts.ge/fonts/bpg-glaho-bold/css/bpg-glaho-bold.min.css">
-</head>
-
-<body>
-  <div id="space">
-    <header>
-      <div class='container'>
-        <div class='background'></div>
-        <nav>
-          <div class='logo'>
-            <svg height='100' width='100'>
-              <text>WWM</text>
-            </svg>
-          </div>
-          <ul>
-            <li>
-              <a>თამაშები</a>
-            </li>
-            <li>
-              <a>ხელსაწყოები</a>
-            </li>
-            <li>
-              <a>ლექსიკონი</a>
-            </li>
-            <li>
-              <a>ბმულები</a>
-            </li>
-            <li>
-              <a>საიტის რუკა</a>
-            </li>
-          </ul>
-          <a href="profile.html">
-              <img class='profile'src='images/profile.svg'>
-          </a>
-        </nav>
-
-      </div>
-    </header>
-
+<?php include_once ("partitions/header.php");?>
+<div id="space">
+<?php include_once ("partitions/nav.php");?>
     <section>
       <div class="container">
         <div class="notes">

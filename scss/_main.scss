@@ -29,11 +29,18 @@ body{
     z-index: 21;
     nav {
       position: absolute;
-      top: 0;
-      width: 100%;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
       display: flex;
       align-items: center;
-      justify-content: space-around;
+      justify-content: space-between;
+      div{
+        display: flex;
+        justify-content: space-between;
+        width:50%;
+      }
       ul {
         display: flex;
         li {

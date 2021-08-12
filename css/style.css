@@ -3,6 +3,7 @@
 /* STRUCTURE */
 /* SPACE */
 /* CHANGE */
+/* PROFILE */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -48,29 +49,22 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
 }
 
-<<<<<<< HEAD
-.d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-li {
-  list-style: none;
-=======
 .active {
   color: white !important;
 }
 
 body {
   font-family: "BPG Glaho Bold", sans-serif;
->>>>>>> 6e9597fd3bfc3bf45aaa38475c7253ecbcdd0ff3
 }
 
 .background {
@@ -89,11 +83,11 @@ header {
 
 header nav {
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 50%;
-  width: 90%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -105,13 +99,13 @@ header nav {
           justify-content: space-between;
 }
 
-header nav .d-flex {
+header nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 50%;
 }
 

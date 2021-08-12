@@ -1,0 +1,51 @@
+#profile{
+    .background {
+      z-index: -1;
+      position: absolute;
+      background-image: linear-gradient(
+          to bottom,
+          $gradientStart,
+          $gradientEnd 110%
+        ),
+        url(../images/DigitalEffect.png);
+        background-color: #090979;
+    }
+
+    section{
+        width:1200px;
+        margin: 0 auto;
+    }
+
+    p, h1{
+        color:$white;
+    }
+
+    .profile_info{
+        padding-top: 120px;
+        display: flex;
+        align-items: flex-end;
+        color:$white;
+        img{
+            margin-right: 25px;
+        }
+        .registred{
+            color:gray;
+            margin-bottom: 15px;
+        }
+    }
+    .bio{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width:90%;
+        }
+        .bio-text{
+            width:70%;
+            margin-right: 50px;
+        }
+    }
+
+
+
+  }

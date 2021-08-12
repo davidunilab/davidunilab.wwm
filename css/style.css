@@ -1,9 +1,60 @@
+/* RESET */
+/* MAIN */
+/* STRUCTURE */
+/* SPACE */
+/* CHANGE */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
 }
 
+<<<<<<< HEAD
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,19 +63,28 @@
 
 li {
   list-style: none;
+=======
+.active {
+  color: white !important;
+}
+
+body {
+  font-family: "BPG Glaho Bold", sans-serif;
+>>>>>>> 6e9597fd3bfc3bf45aaa38475c7253ecbcdd0ff3
 }
 
 .background {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(70, 50, 80, 0.3)), to(#281350)), url(https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
-  background-image: linear-gradient(to bottom, rgba(70, 50, 80, 0.3), #281350), url(https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(70%, rgba(37, 23, 34, 0.3)), to(#211725)), url(../images/main_background.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3) 0%, rgba(37, 23, 34, 0.3) 70%, #211725 100%), url(../images/main_background.png);
+  background-color: black;
   background-size: cover;
   width: 100%;
   height: 700px;
 }
 
 header {
-  z-index: 1;
+  z-index: 21;
 }
 
 header nav {
@@ -66,7 +126,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: white;
+  color: #cfcfcf;
 }
 
 header nav .profile {
@@ -74,14 +134,190 @@ header nav .profile {
 }
 
 header .site_name {
+  font-size: 72px;
+  letter-spacing: 12px;
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 50%;
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
-  font-size: 72px;
-  color: white;
+  color: #cfcfcf;
   text-align: center;
+  line-height: 150px;
   width: 550px;
+}
+
+.portals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-height: 400px;
+  background-color: #211725;
+  padding-bottom: 150px;
+}
+
+.portals div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.portals div img {
+  width: 100%;
+}
+
+.portals div a {
+  color: #cfcfcf;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+#structure .background, #space .background, #change .background {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), to(#211725)), url(../images/srtucture_background.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3), #211725), url(../images/srtucture_background.png);
+  background-color: black;
+}
+
+#structure section .container, #space section .container, #change section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  top: 150px;
+  padding: 0 40px;
+}
+
+#structure section .container div, #space section .container div, #change section .container div {
+  padding: 0 20px;
+}
+
+#structure section .container .notes, #space section .container .notes, #change section .container .notes {
+  background-color: rgba(255, 255, 255, 0.247);
+  padding: 25px 25px 65px 25px;
+  max-width: 65%;
+  color: white;
+  line-height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.384);
+  position: relative;
+}
+
+#structure section .container .notes button, #space section .container .notes button, #change section .container .notes button {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #cfcfcf;
+  padding: 10px 15px;
+  border: 1px solid #cfcfcf;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#structure section .container .notes button:hover, #space section .container .notes button:hover, #change section .container .notes button:hover {
+  color: white;
+}
+
+#structure section .container li, #space section .container li, #change section .container li {
+  color: #cfcfcf;
+  z-index: 33;
+  padding-bottom: 40px;
+  text-align: right;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#structure section .container li:hover, #space section .container li:hover, #change section .container li:hover {
+  color: white;
+}
+
+#space .background {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(110%, #211725)), url(../images/space_background.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3), #211725 110%), url(../images/space_background.png);
+  background-color: black;
+}
+
+#change .background {
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(150%, #211725)), url(../images/change_background.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3) 0%, #211725 150%), url(../images/change_background.png);
+  background-color: black;
+}
+
+#profile .background {
+  z-index: -1;
+  position: absolute;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(110%, #211725)), url(../images/DigitalEffect.png);
+  background-image: linear-gradient(to bottom, rgba(37, 23, 34, 0.3), #211725 110%), url(../images/DigitalEffect.png);
+  background-color: #090979;
+}
+
+#profile section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#profile p, #profile h1 {
+  color: #cfcfcf;
+}
+
+#profile .profile_info {
+  padding-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #cfcfcf;
+}
+
+#profile .profile_info img {
+  margin-right: 25px;
+}
+
+#profile .profile_info .registred {
+  color: gray;
+  margin-bottom: 15px;
+}
+
+#profile .bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#profile .bio img {
+  width: 90%;
+}
+
+#profile .bio .bio-text {
+  width: 70%;
+  margin-right: 50px;
 }
 /*# sourceMappingURL=style.css.map */

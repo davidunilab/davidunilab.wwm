@@ -1,9 +1,11 @@
 /* RESET */
+/* FRAMEWORK */
 /* MAIN */
 /* STRUCTURE */
 /* SPACE */
 /* CHANGE */
 /* PROFILE */
+/* RESET */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -58,6 +60,7 @@ a {
   text-decoration: none;
 }
 
+/* FRAMEWORK */
 .text-center {
   text-align: center;
 }
@@ -66,6 +69,7 @@ a {
   text-align: right;
 }
 
+/* MAIN */
 .container {
   max-width: 2000px;
   width: 100%;
@@ -204,6 +208,7 @@ header .site_name {
   letter-spacing: 5px;
 }
 
+/* STRUCTURE */
 #structure .background, #space .background, #change .background {
   position: absolute;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), to(#211725)), url(../images/srtucture_background.png);
@@ -266,6 +271,7 @@ header .site_name {
   color: white;
 }
 
+/* SPACE */
 #space .background {
   position: absolute;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(110%, #211725)), url(../images/space_background.png);
@@ -273,6 +279,7 @@ header .site_name {
   background-color: black;
 }
 
+/* CHANGE */
 #change .background {
   position: absolute;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(37, 23, 34, 0.3)), color-stop(150%, #211725)), url(../images/change_background.png);
@@ -280,6 +287,7 @@ header .site_name {
   background-color: black;
 }
 
+/* PROFILE */
 #profile .background {
   z-index: -1;
   position: absolute;
@@ -338,6 +346,38 @@ header .site_name {
   margin-right: 50px;
 }
 
+#profile #last-session-wrapper {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1c143400), color-stop(10%, #1c1434), to(#1e1730));
+  background-image: linear-gradient(180deg, #1c143400 0%, #1c1434 10%, #1e1730 100%);
+  padding-bottom: 50px;
+}
+
+#profile #last-session-wrapper p {
+  padding: 15px 0;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+#profile #last-session-wrapper p a {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#profile #last-session-wrapper p a:hover {
+  display: block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: white;
+  text-shadow: -2px 2px 1px black;
+  background-color: rgba(21, 88, 114, 0.082);
+}
+
+#profile #session-history-title {
+  font-size: 24px;
+  margin: 15px 0px 50px 0;
+}
+
 #profile .last-session {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,8 +385,14 @@ header .site_name {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 35px;
 }
-/*# sourceMappingURL=style.css.map */
+
+#profile .last-session img {
+  margin-bottom: 35px;
+  width: 300px;
+  height: 300px;
+}

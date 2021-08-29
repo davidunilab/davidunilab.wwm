@@ -28,33 +28,32 @@
                 </div>
             </div>
         </section>
-
-        <section >
-            <h1 class="text-center">ბოლო სესია</h1>
+        <div id="last-session-wrapper">
+        <section>
+            <h1 class="text-center" id="session-history-title">ბოლო სესია</h1>
+            
             <div class="last-session">
                 <div>
-                    <h2>Title</h2>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
+                    <a href="/structure.php"><img src="images/structure_history.png" alt="structure history image"></a>
+                    <p><a href="javascript:void()"> კომბინატორიკა</a></p>
+                    <p><a href="javascript:void()"> ჯგუფთა თეორია</a></p>
+                    <p><a href="javascript:void()"> ალგებრა</a></p>
                 </div>
                 <div>
-                    <h2>Title</h2>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
+                    <a href="/space.php"><img src="images/space_history.png" alt="space history image"></a>
+                    <p><a href="javascript:void()"> ტრიგონომეტრია</a></p>
+                    <p><a href="javascript:void()"> ტოპოლოგია</a></p>
                 </div>
                 <div>
-                    <h2>Title</h2>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
-                    <p>lorem4</p>
+                    <a href="/change.php"><img src="images/change_history.png" alt="change history image"></a>
+                    <p><a href="javascript:void()"> ქაოსის თეორია</a></p>
+                    <p><a href="javascript:void()"> კალკულუსი</a></p>
+                    <p><a href="javascript:void()"> ვექტორთა კალკულუსი</a></p>
+                    <p><a href="javascript:void()"> მათემატიკური ანალიზი</a></p>
                 </div>
             </div>
         </section>
+        </div>
 </div>
 </body>
 </html>

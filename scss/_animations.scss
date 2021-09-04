@@ -1,0 +1,35 @@
+
+.rocket{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top:-10vh;
+    left:-10vw;
+    z-index: 1;
+    transform:rotate(85deg);
+    animation: rocket 20s ease-in-out infinite;
+
+}
+
+
+@keyframes rocket {
+    0% {
+        top:-10vh;
+        left:-10vw;
+    }
+ 
+    99%{
+        top:160vh;
+        left:80vw;
+        opacity: 1;
+        transform: scale(.9) rotate(85deg);
+
+    }
+    100%{
+        top:160vh;
+        left:80vw;
+        opacity: 0;
+        transform: scale(.1) rotate(85deg);
+
+    }
+}

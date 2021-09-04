@@ -5,11 +5,17 @@
 /* SPACE */
 /* CHANGE */
 /* PROFILE */
+/* ANIMATIONS */
 /* RESET */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+body {
+  overflow-x: hidden;
+  cursor: url(../images/cursor_pi.png), auto;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -156,6 +162,7 @@ header nav .profile {
 }
 
 header .site_name {
+  z-index: 2;
   font-size: 72px;
   letter-spacing: 12px;
   position: absolute;
@@ -170,6 +177,7 @@ header .site_name {
 }
 
 .portals {
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,6 +190,7 @@ header .site_name {
 }
 
 .portals div {
+  z-index: 2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,10 +207,12 @@ header .site_name {
 }
 
 .portals div img {
+  z-index: 2;
   width: 100%;
 }
 
 .portals div a {
+  z-index: 2;
   color: #cfcfcf;
   text-decoration: none;
   font-size: 30px;
@@ -395,4 +406,60 @@ header .site_name {
   margin-bottom: 35px;
   width: 300px;
   height: 300px;
+}
+
+/* ANIMATIONS */
+.rocket {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -10vh;
+  left: -10vw;
+  z-index: 1;
+  -webkit-transform: rotate(85deg);
+          transform: rotate(85deg);
+  -webkit-animation: rocket 20s ease-in-out infinite;
+          animation: rocket 20s ease-in-out infinite;
+}
+
+@-webkit-keyframes rocket {
+  0% {
+    top: -10vh;
+    left: -10vw;
+  }
+  99% {
+    top: 160vh;
+    left: 80vw;
+    opacity: 1;
+    -webkit-transform: scale(0.9) rotate(85deg);
+            transform: scale(0.9) rotate(85deg);
+  }
+  100% {
+    top: 160vh;
+    left: 80vw;
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(85deg);
+            transform: scale(0.1) rotate(85deg);
+  }
+}
+
+@keyframes rocket {
+  0% {
+    top: -10vh;
+    left: -10vw;
+  }
+  99% {
+    top: 160vh;
+    left: 80vw;
+    opacity: 1;
+    -webkit-transform: scale(0.9) rotate(85deg);
+            transform: scale(0.9) rotate(85deg);
+  }
+  100% {
+    top: 160vh;
+    left: 80vw;
+    opacity: 0;
+    -webkit-transform: scale(0.1) rotate(85deg);
+            transform: scale(0.1) rotate(85deg);
+  }
 }

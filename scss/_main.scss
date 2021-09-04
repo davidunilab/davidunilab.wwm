@@ -61,6 +61,7 @@ body{
       }
     }
     .site_name {
+      z-index: 2;
       font-size: 72px;
       letter-spacing: 12px;
       position: absolute;
@@ -75,20 +76,24 @@ body{
   }
 
   .portals{
+    z-index: 2;
     display: flex;
     justify-content: space-evenly;
     min-height:400px;
     background-color: $gradientEnd;
     padding-bottom: 150px;
     div{
+      z-index: 2;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       img{
+        z-index: 2;
         width:100%;
       }
       a{
+        z-index: 2;
         color:$white;
         text-decoration: none;
         font-size: 30px;

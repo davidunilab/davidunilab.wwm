@@ -1,4 +1,8 @@
-document.querySelector(".fa-bars").addEventListener("click", function(){
+let hum = document.querySelector(".fa-bars");
+if (hum) {
+
+
+hum.addEventListener("click", function(){
    let x = document.querySelector("nav ul")
 
     if (window.getComputedStyle(x).display == "none" ){
@@ -7,3 +11,4 @@ document.querySelector(".fa-bars").addEventListener("click", function(){
         x.style.display = "none"
     }
 })
+}

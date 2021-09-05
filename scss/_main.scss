@@ -114,7 +114,7 @@ body{
     nav{
       ul {
         display: none;
-        background-color: rgba(31, 5, 5, 0.335);
+        background-color: rgba(31, 5, 5, 0.7);
         overflow: hidden;
         position: absolute;
         align-items: flex-start;
@@ -145,6 +145,20 @@ body{
       }
       a {
         margin-top: -5px;
+      }
+    }
+  }
+
+  #structure, #change, #space{
+    section{
+      .container{
+        flex-direction: column-reverse;
+        align-items: center;
+        .side-nav{
+          li{
+            padding-bottom: 10px;
+          }
+        }
       }
     }
   }

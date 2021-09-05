@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="9.3661489mm"
+   height="9.3442268mm"
+   viewBox="0 0 9.3661488 9.3442268"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
@@ -26,28 +26,32 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="3.9668495"
-     inkscape:cx="71.719383"
-     inkscape:cy="410.90543"
+     inkscape:cx="-38.82174"
+     inkscape:cy="19.662959"
      inkscape:window-width="1861"
      inkscape:window-height="1023"
      inkscape:window-x="59"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g26421">
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <sodipodi:guide
-       position="29.033277,197.44173"
+       position="6.0504541,13.324736"
        orientation="1,0"
        id="guide4701" />
     <sodipodi:guide
-       position="19.05195,187.38754"
+       position="-3.9308731,3.2705455"
        orientation="0,-1"
        id="guide4703" />
     <sodipodi:guide
-       position="29.033276,197.44174"
+       position="6.0504531,13.324746"
        orientation="0,-1"
        id="guide4743" />
     <sodipodi:guide
-       position="19.020167,197.33543"
+       position="-3.9626561,13.218436"
        orientation="1,0"
        id="guide4745" />
   </sodipodi:namedview>
@@ -56,38 +60,39 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-22.982823,-103.53878)">
     <rect
-       style="fill:#008b5e;fill-opacity:0.000675755;stroke-width:0.433657;stroke-opacity:0"
+       style="fill:#008b5e;fill-opacity:0.000675755;stroke-width:0.17449;stroke-opacity:0"
        id="rect4028"
-       width="20"
-       height="20"
-       x="19.204424"
-       y="99.722168"
+       width="8.0473938"
+       height="8.0473938"
+       x="24.261257"
+       y="104.79529"
        inkscape:export-filename="/opt/lampp/htdocs/wwm/images/cursor_pi.png"
        inkscape:export-xdpi="49.789005"
        inkscape:export-ydpi="49.789005" />
     <path
-       style="color:#000000;fill:#1eb3d0;fill-opacity:0.502617;stroke:#000000;stroke-width:0.325579;stroke-opacity:1;-inkscape-stroke:none"
-       d="m 39.041634,110.50442 c 0,5.00046 -4.060002,9.05413 -9.068267,9.05413 -10.953201,0.10602 -10.9532,-9.94609 -13.606572,-22.620321 12.666482,2.620032 22.653369,2.726345 22.674839,13.566191 z"
+       style="color:#000000;fill:#3e1f45;fill-opacity:1;stroke:#ffffff;stroke-width:0.211646;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 32.243149,109.13374 c 0,2.01203 -1.633622,3.64311 -3.648796,3.64311 -4.407236,0.0427 -4.407235,-4.00201 -5.474872,-9.10174 5.096609,1.05423 9.115029,1.097 9.123668,5.45863 z"
        id="path2423-1"
        sodipodi:nodetypes="cccc"
        inkscape:export-filename="/opt/lampp/htdocs/wwm/images/cursor_pi.png"
        inkscape:export-xdpi="49.789005"
        inkscape:export-ydpi="49.789005" />
     <rect
-       style="fill:none;fill-opacity:0.12896;stroke-width:0.14562;stroke-opacity:0"
+       style="fill:none;fill-opacity:0.12896;stroke-width:0.0585931;stroke-opacity:0"
        id="rect5111"
-       width="3"
-       height="3"
-       x="36.204422"
-       y="116.72217"
+       width="1.2071091"
+       height="1.2071091"
+       x="31.101542"
+       y="111.63557"
        inkscape:export-filename="/opt/lampp/htdocs/wwm/images/cursor_pi.png"
        inkscape:export-xdpi="49.789005"
        inkscape:export-ydpi="49.789005" />
     <g
        id="g19062"
-       transform="matrix(0.882355,0,0,0.88235189,4.0079569,13.523332)"
+       transform="matrix(0.3550329,0,0,0.35503165,18.146659,70.111488)"
        inkscape:export-filename="/opt/lampp/htdocs/wwm/images/cursor_pi.png"
        inkscape:export-xdpi="49.789005"
        inkscape:export-ydpi="49.789005">
@@ -121,7 +126,7 @@
            inkscape:export-ydpi="49.789005"
            r="8.3078127" />
         <ellipse
-           style="fill:none;fill-opacity:0.502617;stroke:#1e3228;stroke-width:0.68566627;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+           style="fill:none;fill-opacity:0.502617;stroke:#1e3228;stroke-width:0.685666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
            id="circle25655"
            cx="29.144514"
            cy="109.34159"

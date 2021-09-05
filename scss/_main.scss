@@ -30,6 +30,9 @@ body{
   }
   header {
     z-index: 21;
+    .fa-bars{
+      display: none;
+    }
     nav {
       position: absolute;
       top: 15px;
@@ -71,6 +74,7 @@ body{
       color: $white;
       text-align: center;
       line-height: 150px;
+      max-width: 70%;
       width: 550px;
     }
   }
@@ -102,3 +106,46 @@ body{
     }
   }
 
+@media screen and (max-width: 800px){
+  header{
+    .fa-bars{
+      display: block;
+    }
+    nav{
+      ul {
+        display: none;
+        background-color: rgba(31, 5, 5, 0.335);
+        overflow: hidden;
+        position: absolute;
+        align-items: flex-start;
+        top: 50%;
+        left: 50%;
+        transform: translate(-30%, 10%);
+        margin:0;
+        flex-direction: column;
+        
+        li {
+          padding: 10px 0 10px 30px ;
+        }
+      }
+    }
+     .site_name{
+       font-size: 1.3em;
+       line-height: 50px;
+    }
+  }
+
+  .portals{
+    flex-direction: column;
+    & > div{
+      margin-bottom: 30px;
+      justify-content: center;
+      img{
+        width:200px;
+      }
+      a {
+        margin-top: -5px;
+      }
+    }
+  }
+}

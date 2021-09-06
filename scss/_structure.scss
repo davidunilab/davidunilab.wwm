@@ -1,15 +1,25 @@
-#structure, #space, #change{
-    .background {
-      position: absolute;
-      background-image: linear-gradient(
+#structure {
+        background-image: linear-gradient(
           to bottom,
           $gradientStart,
           $gradientEnd
         ),
         url(../images/srtucture_background.png);
         background-color: black;
+}
+
+#structure, #space, #change{
+    // .background {
+    //   position: absolute;
+    //   background-image: linear-gradient(
+    //       to bottom,
+    //       $gradientStart,
+    //       $gradientEnd
+    //     ),
+    //     url(../images/srtucture_background.png);
+    //     background-color: black;
         
-    }
+    // }
 
     section .container{
       display: flex;

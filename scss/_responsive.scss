@@ -1,0 +1,23 @@
+@mixin xlScreen {
+  @media (min-width: $xlScreen) {
+    @content;
+  }
+}
+
+@mixin lScreen {
+  @media (min-width: $lScreen) {
+    @content;
+  }
+}
+
+@mixin mScreen {
+  @media (min-width: $mScreen) {
+    @content;
+  }
+}
+
+@mixin sScreen {
+  @media (min-width: $sScreen) {
+    @content;
+  }
+}

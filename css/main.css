@@ -1,0 +1,212 @@
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: 'BPG Arial';
+  src: url('../fonts/bpg-arial-webfont.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/bpg-arial-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bpg-arial-webfont.woff2') format('woff2'), url('../fonts/bpg-arial-webfont.woff') format('woff'), url('../fonts/bpg-arial-webfont.ttf') format('truetype'), url('../fonts/bpg-arial-webfont.svg#bpg_arialregular') format('svg');
+  /* Legacy iOS */
+}
+* {
+  font-family: 'BPG Arial';
+}
+@font-face {
+  font-family: 'BPG Arial Caps';
+  src: url('../fonts/bpg-arial-caps-webfont.eot');
+  /* IE9 Compat Modes */
+  src: url('../fonts/bpg-arial-caps-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/bpg-arial-caps-webfont.woff2') format('woff2'), url('../fonts/bpg-arial-caps-webfont.woff') format('woff'), url('../fonts/bpg-arial-caps-webfont.ttf') format('truetype'), url('../fonts/bpg-arial-caps-webfont.svg#bpg_arial_capsregular') format('svg');
+  /* Legacy iOS */
+}
+h1 {
+  font-family: 'BPG Arial Caps';
+  color: #e3e3e3;
+}
+h2 {
+  font-family: 'BPG Arial Caps';
+  color: #e3e3e3;
+}
+h3 {
+  font-family: 'BPG Arial Caps';
+  color: #e3e3e3;
+}
+h4 {
+  font-family: 'BPG Arial Caps';
+  color: #e3e3e3;
+}
+h5 {
+  font-family: 'BPG Arial Caps';
+  color: #e3e3e3;
+}
+h6 {
+  font-family: 'BPG Arial Caps';
+  color: #e3e3e3;
+}
+.body-font {
+  font-family: 'BPG Arial' !important;
+}
+.heading-font {
+  font-family: 'BPG Arial Caps' !important;
+}
+.uk-object-cover img {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.uk-heading-xsmall {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none !important;
+  color: #e3e3e3;
+}
+p, div, .uk-text-lead {
+  color: #e3e3e3;
+}
+.styles1, .glass-effect, .glass-effect * {
+  color: white;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 1px black;
+}
+.glass-effect {
+  background-color: rgba(250, 250, 250, 0.15);
+  backdrop-filter: blur(5px);
+  padding: 25px;
+  min-height: 400px;
+  border: 1px solid #ffffff75;
+}
+#home-page {
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: #0C0026;
+}
+#main-header {
+  position: relative;
+  z-index: 999;
+  padding: 10px 0;
+}
+#main-header #profile-button {
+  cursor: pointer;
+}
+.main-banner {
+  height: 90%;
+  position: relative;
+}
+.main-banner .text-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+.main-banner .text-content * {
+  font-size: 3rem;
+  color: #e3e3e3;
+  line-height: 50px;
+  letter-spacing: 3px;
+}
+.main-banner::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #0C0026, rgba(255, 0, 0, 0));
+  z-index: 1;
+}
+.uk-navbar-nav > li a {
+  font-family: 'BPG Arial Caps';
+}
+.uk-navbar-nav > li ul a {
+  font-family: 'BPG Arial';
+}
+#profile {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(../images/DigitalEffect.png), linear-gradient(#711C91, #001D47);
+  background-size: cover;
+  background-position: center left;
+}
+#structure {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(../images/srtucture_background.png);
+  background-size: cover;
+  background-position: center left;
+}
+#space {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(../images/space_background.png);
+  background-size: cover;
+  background-position: center left;
+}
+#change {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-image: url(../images/change_background.png);
+  background-size: cover;
+  background-position: center left;
+}
+.page-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.page-nav ul li {
+  margin-bottom: 25px;
+}
+.page-nav ul li a {
+  color: #e3e3e3;
+  text-decoration: none;
+  font-size: 1.3rem;
+  line-height: 0;
+  transition: all 0.5s ease-in-out;
+}
+.page-nav ul li a:hover {
+  color: #f6cd82;
+}
+.page-nav ul li.active a {
+  color: white;
+}
+.rocket {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: -10vh;
+  left: -10vw;
+  z-index: 1;
+  transform: rotate(85deg);
+  animation: rocket 20s ease-in infinite;
+}
+@keyframes rocket {
+  0% {
+    top: -10vh;
+    left: -10vw;
+  }
+  99.9% {
+    top: 110vh;
+    left: 95vw;
+    opacity: 1;
+    transform: scale(0.9) rotate(85deg);
+  }
+  100% {
+    top: 120vh;
+    left: 100vw;
+    opacity: 0;
+    transform: scale(0.1) rotate(85deg);
+  }
+}

@@ -1,0 +1,9 @@
+@mixin pageBackgound {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  //background-image: url(../images/DigitalEffect.png), linear-gradient($gradientProfile);
+  @content;
+  background-size: cover;
+  background-position: center left;
+}

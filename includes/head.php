@@ -19,18 +19,17 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:url" content="<?=$base_url?>">
     <meta property="og:title" content="მათემატიკის საოცარი სამყარო">
     <meta property="og:description" content="მათამატიკია ახსნილია მარტივი ენით, დართული აქვს სავარჯიშოები, თავსატეხვი, თამაშები ასევე საიტი არის ილუსტრირებული. მის გამოყენება შეუძლიათ როგორც ბავშვებს, ასევერე უმაღლესი სასწავლებლის სტუდენტებს.">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:image" content="<?=$base_url?>/images/main_background.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
     <meta property="twitter:title" content="მათემატიკის საოცარი სამყარო">
     <meta property="twitter:description" content="მათამატიკია ახსნილია მარტივი ენით, დართული აქვს სავარჯიშოები, თავსატეხვი, თამაშები ასევე საიტი არის ილუსტრირებული. მის გამოყენება შეუძლიათ როგორც ბავშვებს, ასევერე უმაღლესი სასწავლებლის სტუდენტებს.">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
+    <meta property="twitter:image" content="<?=$base_url?>/images/main_background.png">
 
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/css/uikit.min.css" />

@@ -25,15 +25,15 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="3.9668495"
-     inkscape:cx="-38.82174"
-     inkscape:cy="19.662959"
+     inkscape:zoom="21.281176"
+     inkscape:cx="11.418542"
+     inkscape:cy="18.842944"
      inkscape:window-width="1861"
      inkscape:window-height="1023"
      inkscape:window-x="59"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g19062"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -96,26 +96,26 @@
        inkscape:export-filename="/opt/lampp/htdocs/wwm/images/cursor_pi.png"
        inkscape:export-xdpi="49.789005"
        inkscape:export-ydpi="49.789005">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:17.9874px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="23.881994"
+         y="113.24444"
+         id="text10828"
+         transform="scale(0.99227819,1.0077819)"
+         inkscape:export-filename="/opt/lampp/htdocs/wwm/images/cursor_pi.png"
+         inkscape:export-xdpi="49.789005"
+         inkscape:export-ydpi="49.789005"><tspan
+           sodipodi:role="line"
+           id="tspan10826"
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="23.881994"
+           y="113.24444">π</tspan></text>
       <g
          id="g26421"
          inkscape:export-filename="/opt/lampp/htdocs/wwm/images/cursor_pi.png"
          inkscape:export-xdpi="49.789005"
          inkscape:export-ydpi="49.789005">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:17.9874px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="23.728615"
-           y="113.52988"
-           id="text10828"
-           transform="scale(0.99227818,1.0077819)"
-           inkscape:export-filename="/opt/lampp/htdocs/wwm/images/cursor_pi.png"
-           inkscape:export-xdpi="49.789005"
-           inkscape:export-ydpi="49.789005"><tspan
-             sodipodi:role="line"
-             id="tspan10826"
-             style="fill:#ffffff;stroke:#000000;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             x="23.728615"
-             y="113.52988">π</tspan></text>
         <circle
            style="fill:none;fill-opacity:0.502617;stroke:#ffffff;stroke-width:1.17753;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
            id="path18280"

@@ -1,5 +1,4 @@
 
-
 // Home page
 #home-page {
   min-height: 100vh;
@@ -105,6 +104,18 @@
   @include pageBackgound {
     background-image: url(../images/change_background.png)
   };
+}
+
+
+#form {
+  @include pageBackgound {
+    background-image: url(../images/form.jpg)
+  };
+
+  button{
+    color: $violet;
+    background-color: white;
+  }
 }
 
 

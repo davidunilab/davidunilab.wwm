@@ -54,6 +54,11 @@
 
         </div>
     </section>
+
+    <?php include  __DIR__ . '/includes/socialicons.php' ?>
+
 </div>
+
+
     <img class="rocket uk-visible@m" src="images/rocket-ship.svg" alt="Ship Image">
 <?php include  __DIR__ . '/includes/footer.php' ?>

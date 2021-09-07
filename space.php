@@ -26,6 +26,7 @@
                     </div>
                 </div>
             </div>
+            <?php include  __DIR__ . '/includes/socialicons.php' ?>
 
         </div>
     </seciton>
